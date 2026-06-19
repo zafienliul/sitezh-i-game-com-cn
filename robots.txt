@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zafienliul.github.io/sitezh-i-game-com-cn/sitemap.xml
