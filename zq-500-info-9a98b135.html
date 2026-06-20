@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>足球竞猜 · 知识库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fafafa;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1e1e1e;
+            line-height: 1.7;
+            padding: 2rem 1.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .page {
+            max-width: 720px;
+            width: 100%;
+        }
+
+        /* 标题层级 */
+        h1 {
+            font-size: 2rem;
+            font-weight: 450;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.4rem;
+            border-left: 4px solid #2b7a4b;
+            padding-left: 1rem;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-top: 2.2rem;
+            margin-bottom: 0.8rem;
+            color: #1e3a2f;
+            border-bottom: 1px solid #d8e0da;
+            padding-bottom: 0.3rem;
+        }
+
+        h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 1.5rem;
+            margin-bottom: 0.4rem;
+            color: #2a4a3a;
+        }
+
+        p {
+            margin-bottom: 1rem;
+            font-size: 0.95rem;
+        }
+
+        /* 卡片 / 区块 */
+        .intro-block {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem 1.8rem;
+            margin: 1.8rem 0;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+            border: 1px solid #edf1ee;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin: 1.2rem 0;
+        }
+
+        .info-card {
+            background: #f4f7f5;
+            border-radius: 10px;
+            padding: 1rem 1.1rem;
+            border-left: 3px solid #3b7a5a;
+            font-size: 0.9rem;
+        }
+
+        .info-card p {
+            margin-bottom: 0.2rem;
+        }
+
+        .info-card .label {
+            font-weight: 500;
+            color: #23503b;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+
+        .tip-box {
+            background: #f0f6f2;
+            border-radius: 10px;
+            padding: 1.2rem 1.5rem;
+            margin: 1.5rem 0;
+            border: 1px solid #d3e2d8;
+        }
+
+        .tip-box strong {
+            color: #1c5a38;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+
+        .faq-item .q {
+            font-weight: 500;
+            color: #1a3e2e;
+        }
+
+        .faq-item .a {
+            margin-top: 0.2rem;
+            color: #3b4f44;
+            padding-left: 0.2rem;
+        }
+
+        a {
+            color: #1b6b3f;
+            text-decoration: none;
+            border-bottom: 1px solid #b6cfc0;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            color: #0f4d2e;
+            border-bottom-color: #0f4d2e;
+        }
+
+        .site-link-sentence {
+            background: white;
+            padding: 0.8rem 1.2rem;
+            border-radius: 30px;
+            border: 1px solid #dce8e0;
+            display: inline-block;
+            margin: 0.2rem 0 0.6rem 0;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid #e0e8e2;
+            margin: 2rem 0 1rem;
+        }
+
+        .footer-note {
+            font-size: 0.8rem;
+            color: #5f6f65;
+            margin-top: 2rem;
+            text-align: center;
+            border-top: 1px solid #e3ebe5;
+            padding-top: 1.5rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            body {
+                padding: 1.2rem 1rem;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+                padding-left: 0.8rem;
+            }
+
+            .intro-block {
+                padding: 1rem 1.2rem;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+                gap: 0.8rem;
+            }
+
+            .info-card {
+                padding: 0.8rem 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>足球竞猜 · 知识库</h1>
+        <p style="color: #345f49; margin-bottom: 0.2rem;">快速了解这个网站的核心用途与信息结构</p>
+
+        <!-- 简短说明区：网站身份 -->
+        <div class="intro-block">
+            <p>如果你正在寻找一个专门围绕<strong>足球竞猜</strong>整理信息的站点，这里提供了相对集中的内容聚合。站点的名字就是它的定位：<a href="https://zq-500.com">足球竞猜</a> —— 一个以足球竞猜为主题的知识型页面，不涉及实时投注或交易，而是侧重于规则、术语、常见疑问和背景介绍。</p>
+            <p>你可以把它看作一个轻量级的信息入口：无论你是刚开始了解竞猜规则，还是想确认某些概念，这里都做了基础梳理。</p>
+        </div>
+
+        <!-- 目录感布局：三大块 -->
+        <h2>▎ 站内信息分区</h2>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <span class="label">📘 规则说明</span>
+                <p>竞猜方式、赔率类型、结算逻辑等基础内容，以条目方式呈现。</p>
+            </div>
+            <div class="info-card">
+                <span class="label">📋 术语表</span>
+                <p>常见名词解释（如让球、大小球、串关），方便快速查阅。</p>
+            </div>
+            <div class="info-card">
+                <span class="label">⚠️ 注意事项</span>
+                <p>理性参与提示、年龄限制、相关法规摘要等。</p>
+            </div>
+            <div class="info-card">
+                <span class="label">❓ 常见疑问</span>
+                <p>用户问得较多的问题，以问答形式整理，节省反复查找的时间。</p>
+            </div>
+        </div>
+
+        <!-- 提示区 -->
+        <div class="tip-box">
+            <strong>💡 使用提示</strong>
+            <p style="margin-top: 0.4rem;">本站内容偏向知识整理，不提供实时数据或投注通道。如果你需要确认最新的竞猜规则或具体赛事信息，建议同时参考官方体育机构或相关授权平台的内容。</p>
+            <p style="margin-bottom: 0;">所有解释均基于通用足球竞猜框架，可能因地区或平台而异，请以实际规则为准。</p>
+        </div>
+
+        <!-- 相关信息区 + FAQ 摘要混合 -->
+        <h2>▎ 相关信息</h2>
+
+        <div class="faq-item">
+            <div class="q">⚽ 足球竞猜与一般体育预测有什么不同？</div>
+            <div class="a">足球竞猜通常围绕赛果（胜平负）、进球数、具体球员事件等设置选项，每个选项对应不同赔率。其核心是概率评估，而非单纯预测。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="q">📄 网站是否包含历史数据或统计？</div>
+            <div class="a">目前以概念说明和规则解释为主，不提供详细历史战绩或实时数据图表。如果你需要数据分析工具，建议配合专业统计网站使用。</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="q">🔒 是否需要注册或登录才能浏览？</div>
+            <div class="a">不需要。整个站点内容开放阅读，无需创建账户。部分外部链接可能指向其他服务，请注意识别。</div>
+        </div>
+
+        <!-- 嵌入链接的自然句子（符合要求：可见文本严格等于『足球竞猜』） -->
+        <p style="margin-top: 1.8rem; background: #f7fbf9; padding: 0.6rem 1rem; border-radius: 20px; display: inline-block;">
+            📌 如果你对主题感兴趣，可以直接浏览 <a href="https://zq-500.com">足球竞猜</a> 的主页面。
+        </p>
+
+        <!-- 额外说明区：用途识别 -->
+        <div style="margin: 1.8rem 0 1rem;">
+            <h3>如何快速识别网站是否适合你</h3>
+            <ul style="padding-left: 1.4rem; line-height: 1.9; font-size: 0.92rem; list-style: none;">
+                <li>✓ 你想了解足球竞猜的基本规则与常见术语</li>
+                <li>✓ 你希望有一个结构清晰的参考页面，而非论坛或社区</li>
+                <li>✓ 你正在寻找一个无广告、内容平实的信息起点</li>
+                <li>✓ 你不需要注册即可阅读全部内容</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="footer-note">
+            <p style="margin-bottom: 0.2rem;">内容基于公开资料整理，仅供个人参考。</p>
+            <p style="font-size: 0.75rem;">理性对待竞猜，量力而行。</p>
+        </div>
+    </div>
+</body>
+</html>
